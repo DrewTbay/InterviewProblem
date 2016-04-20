@@ -23,4 +23,8 @@ Use this table to report the top 50 domains by count sorted by percentage growth
 
 - All processing must be done in Python (eg. no complex queries or sub-queries)
 
-- Submit a compressed file(tar/zip) with the files required to run your script.
+- Submit a compressed file(tar/zip) with the files required to run your script
+
+Assumptions I Made:
+
+- Did not worry about SQL Injection due to the fact it is inhouse and I am using TRUNCATE in queries anyway.
